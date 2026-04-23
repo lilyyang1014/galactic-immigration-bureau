@@ -1,0 +1,214 @@
+.apply-page {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+.apply-page__header {
+  margin-bottom: 2.5rem;
+}
+
+.apply-page__title {
+  font-size: 2rem;
+  color: var(--color-text);
+  margin-bottom: 0.625rem;
+}
+
+.apply-page__subtitle {
+  color: var(--color-text-muted);
+  font-size: 0.9375rem;
+}
+
+.apply-page__form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.apply-page__fieldset {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.apply-page__legend {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-accent-2);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0 0.5rem;
+}
+
+.apply-page__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+.apply-page__field--conditional {
+  padding: 1rem;
+  background-color: var(--color-surface-2);
+  border-radius: var(--radius-md);
+  border-left: 3px solid var(--color-accent);
+}
+
+.apply-page__field--checkbox {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+
+.apply-page__label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.apply-page__label-hint {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: var(--color-text-faint);
+}
+
+.apply-page__input,
+.apply-page__select,
+.apply-page__textarea {
+  padding: 0.625rem 0.875rem;
+  background-color: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text);
+  font-size: 0.9375rem;
+  font-family: var(--font-sans);
+  width: 100%;
+}
+
+.apply-page__input:focus,
+.apply-page__select:focus,
+.apply-page__textarea:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-color: var(--color-accent);
+}
+
+.apply-page__input--error {
+  border-color: var(--color-danger);
+}
+
+.apply-page__textarea {
+  resize: vertical;
+  min-height: 6rem;
+}
+
+.apply-page__checkbox {
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.125rem;
+  flex-shrink: 0;
+  accent-color: var(--color-accent);
+  cursor: pointer;
+}
+
+.apply-page__checkbox-label {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.apply-page__error {
+  font-size: 0.8125rem;
+  color: var(--color-danger);
+}
+
+.apply-page__submit-row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.apply-page__submit-btn {
+  padding: 0.75rem 2rem;
+  background-color: var(--color-accent);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.apply-page__submit-btn:hover {
+  background-color: var(--color-accent-hover);
+}
+
+.apply-page__success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 4rem 2rem;
+}
+
+.apply-page__success-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: var(--color-success-bg);
+  color: var(--color-success);
+  font-size: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.apply-page__success-title {
+  font-size: 1.75rem;
+  color: var(--color-text);
+}
+
+.apply-page__success-text {
+  color: var(--color-text-muted);
+  max-width: 32rem;
+  line-height: 1.7;
+}
+
+.apply-page__success-ref {
+  font-size: 0.875rem;
+  color: var(--color-text-faint);
+  font-family: var(--font-sans);
+}
+
+.apply-page__success-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--color-accent);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+
+.apply-page__success-btn:hover {
+  background-color: var(--color-accent-hover);
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .apply-page {
+    padding: 2rem 1.25rem 3rem;
+  }
+
+  .apply-page__fieldset {
+    padding: 1.25rem;
+  }
+}

@@ -1,0 +1,31 @@
+nova-terra.jpg
+Source: https://unsplash.com/photos/an-aerial-view-of-a-lush-green-valley-NZZgWbjYu2Y
+License: https://unsplash.com/license
+
+crimson-sands.jpg
+Source: https://unsplash.com/photos/the-moon-is-setting-over-a-rocky-mountain-c7_rQbIQ3r8
+License: https://unsplash.com/license
+
+aqua-prime.jpg
+Source: https://unsplash.com/photos/aerial-photo-of-seashore-sLAk1guBG90
+License: https://unsplash.com/license
+
+frost-haven.jpg
+Source: https://unsplash.com/photos/a-very-large-glacier-with-lots-of-snow-on-it-xEnl59zhXKM
+License: https://unsplash.com/license
+
+helios-platform.jpg
+Source: https://unsplash.com/photos/tall-structure-in-the-ocean-at-sunset-6A40rHQKMQo
+License: https://unsplash.com/license
+
+void-outpost.jpg
+Source: https://unsplash.com/photos/the-night-sky-is-filled-with-stars-and-trees-jKZ2iUsaqXk
+License: https://unsplash.com/license
+
+elara-jungle.jpg
+Source: https://unsplash.com/photos/coconut-trees-in-forest-covered-with-mist-at-daytime--RQ8tGcn2EY
+License: https://unsplash.com/license
+
+kepler-station.jpg
+Source: https://unsplash.com/photos/modern-subway-station-with-red-accents-and-bright-lights-CBnM4jSA_GE
+License: https://unsplash.com/license
